@@ -1,0 +1,28 @@
+fieldset
+{
+    width: 60%;
+    height: 100%;
+    margin-left: 12%;
+}
+fieldset legend
+{
+    padding:20px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:2em;
+    font-weight:bold;
+    background:#00CED1;
+    border:2px ;
+    color:#191970;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+div {
+ 
+  display: table; 
+  background:#ccddcc;
+}
+p {
+    text-align:center; 
+  vertical-align: middle;
+  display: table-cell; 
+}

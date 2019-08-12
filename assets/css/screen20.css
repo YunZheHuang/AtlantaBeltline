@@ -1,0 +1,86 @@
+
+label
+{   padding: 5px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:1em;
+    font-weight:bold;   
+}
+.input
+{
+    padding:5px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:1em; 
+}
+input[type=submit]
+{
+    padding:20px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:20px;
+    font-weight:bold;
+    background:#00CED1;
+    border:2px  black;
+    color:#191970;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+input[type=button]
+{
+    padding:20px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:20px;
+    font-weight:bold;
+    background:#00CED1;
+    border:2px  black;
+    color:#191970;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+fieldset
+{
+    width: 80%;
+    margin-left: 10%;
+}
+fieldset legend
+{
+    padding:10px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:2em;
+    font-weight:bold;
+    background:#00CED1;
+    border:2px ;
+    color:#191970;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+ html, body {
+    width: 100%;
+}
+#table1 {
+    margin-top: 3em;
+    padding: 20px;
+    margin-left:15%; 
+    width:50%;  
+    border-collapse: collapse;}
+#addressTable {
+    margin-bottom: 2em;
+    margin-top: 1em;
+    padding: 20px;
+    margin-left:11%; 
+    width:100%;  
+    border-collapse: collapse;
+    border-spacing: 5px;
+} 
+
+div{
+    position:relative;
+}
+select{
+    font-size:15px;
+}
+label {
+    margin-left: 5%;
+}
+#buttonTable{
+    margin-top:2em;
+}
+

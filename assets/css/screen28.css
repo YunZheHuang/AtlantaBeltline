@@ -1,0 +1,68 @@
+html, body {
+    width: 100%;
+}
+fieldset
+{
+    width: 80%;
+    height: 80%;
+    margin-left: 12%;
+}
+fieldset legend
+{
+    padding:20px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:2em;
+    font-weight:bold;
+    background:#00CED1;
+    border:2px ;
+    color:#191970;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+#siteDiv {
+    margin-top:10em;
+    margin: 20px;
+    display: inline;  
+}
+#selectorTable{
+    margin-top: 1em;  
+    border-collapse: collapse;
+    border-spacing: 20px; 
+    margin-bottom: 2em;
+    width: 70%;
+}
+
+.input
+{   size:20px;
+    padding:5px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:1em; 
+}
+select{
+    margin-top: 1em;
+    font-size: 15px;
+    padding: 10px 0px;
+    width: 20%;
+    margin-bottom: 1em;
+}
+#siteLabel {
+    font-size: 20px;
+    font-weight: bold; 
+    margin-left: 32%;
+
+}
+input[type=submit]
+{
+    padding:10px 45px;
+    font-size:20px;
+    font-weight:bold;
+    background:rgba(0, 206, 209, 0.452);
+    color:#191970;
+    border-radius: 10px;
+    margin-right:2em; margin-left:2em;
+}
+#resultTable tr:nth-child(even){background-color: #f2f2f2}
+#resultTable {
+    margin-top:1em;
+    width: 50%;
+}

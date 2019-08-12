@@ -1,0 +1,91 @@
+fieldset
+{
+    width: 80%;
+    height: 50%;
+    margin-left: 12%;
+}
+fieldset legend
+{
+    padding:20px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:2em;
+    font-weight:bold;
+    background:#00CED1;
+    border:2px ;
+    color:#191970;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+label {
+    display: inline-block;
+
+}
+#sortLabel{
+    margin-left: 22%;
+    margin-top:1em;
+}
+#eventTable{
+    margin-top:2em;
+    width:100%; 
+}
+#dateTable{
+    margin-bottom:2em;
+    margin-top:1em;
+    width:60%;  
+    border-collapse: collapse;
+    border-spacing: 0px; 
+    margin-bottom: 1em;
+}
+#buttonTable{
+    margin-top:2em;
+    width:60%;  
+    border-collapse: collapse;
+    border-spacing: 50px; 
+    margin-bottom: 1em;
+}
+.input{
+    font-size: 25px;
+}
+input[type=submit]
+{
+    padding:15px;
+    font-size:15px;
+    font-weight:bold;
+    background:rgba(0, 206, 209, 0.452);
+    color:#191970;
+    border-radius: 10px;
+}
+input[type=button]
+{
+    padding:15px;
+    font-size:15px;
+    font-weight:bold;
+    background:rgba(0, 206, 209, 0.452);
+    color:#191970;
+    border-radius: 10px;
+}
+label
+{   margin-right: 20px;
+    font-size:1em;
+    font-weight:bold;
+}
+#resultTable{
+    margin-top:1em;
+    width:80%;  
+    border-collapse: collapse;
+    border-spacing: 50px; 
+    margin-bottom: 2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px; 
+}
+
+ 
+#resultTable thead {
+    font-size: 20px;
+  }
+ 
+ #resultTable tbody tr:nth-child(odd) {
+    background-color: #e6f5ff;
+ }
+ 

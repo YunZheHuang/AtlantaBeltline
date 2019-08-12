@@ -1,0 +1,91 @@
+fieldset
+{
+    width: 80%;
+    height: 50%;
+    margin-left: 12%;
+}
+fieldset legend
+{
+    padding:20px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size:2em;
+    font-weight:bold;
+    background:#00CED1;
+    border:2px ;
+    color:#191970;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+label {
+    display: inline-block;
+}
+#optionTable {
+    margin-top:0em;
+    margin-left:30%; 
+    width:50%;  
+    border-collapse: collapse;
+    border-spacing: 0px; 
+    margin-bottom: 1em;
+}
+#buttonTable{
+    margin-top:2em;
+    width:60%;  
+    border-collapse: collapse;
+    border-spacing: 50px; 
+    margin-bottom: 1em;
+}
+input[type=submit]
+{
+    padding:15px;
+    font-size:15px;
+    font-weight:bold;
+    background:rgba(0, 206, 209, 0.452);
+    color:#191970;
+    border-radius: 10px;
+}
+input[type=button]
+{
+     padding:15px;
+    font-size:15px;
+    font-weight:bold;
+    background:rgba(0, 206, 209, 0.452);
+    color:#191970;
+    border-radius: 10px;
+}
+select{
+    margin-top: 1em;
+    font-size: 1rem;
+    padding: 15px 15px;
+}
+label
+{   margin-right: 30px;
+    font-size:1em;
+    font-weight:bold;
+}
+#phpTable{
+    margin-top:1em;
+    width:70%;  
+    border-collapse: collapse;
+    border-spacing: 50px; 
+    margin-bottom: 2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px; 
+}
+
+ 
+  #phpTable thead {
+    flow: 'left';
+  }
+ 
+ #phpTable tbody tr:nth-child(odd) {
+    background-color: #E6E6FA;
+ }
+#div2 {
+    
+    height: 200px;
+    overflow: scroll;
+  }
+#div1{
+    display: block;
+}
